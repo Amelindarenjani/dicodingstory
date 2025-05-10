@@ -1,0 +1,31 @@
+{
+    "id": "/",
+    "start_url": "/",
+    "scope": "/",
+    "name": "Dicoding Story",
+    "short_name": "DicodingStory",
+    "description": "Aplikasi berbagi cerita dengan lokasi.",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#d97706",
+    "icons": [
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "40x40",
+        "purpose": "any"
+      },
+      {
+        "src": "images/favicon-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      }
+    ]
+}
