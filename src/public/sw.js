@@ -10,15 +10,15 @@ const manifest = self.__WB_MANIFEST;
 precacheAndRoute(manifest);
 
 // Precaching
-workbox.precaching.precacheAndRoute([
-  {url: '#/', revision: '1'},
-  {url: '#/index.html', revision: '1'},
-  {url: '#/favicon.png', revision: '1'},
-  {
-    url: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
-    revision: '1.9.4'
-  }
-]);
+// workbox.precaching.precacheAndRoute([
+//   {url: '#/', revision: '1'},
+//   {url: '#/index.html', revision: '1'},
+//   {url: '#/favicon.png', revision: '1'},
+//   {
+//     url: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
+//     revision: '1.9.4'
+//   }
+// ]);
 
 // Tangani route aplikasi dengan NetworkFirst strategy
 workbox.routing.registerRoute(
