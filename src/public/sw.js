@@ -6,8 +6,8 @@ workbox.setConfig({
   debug: false
 });
 
-// const manifest = self.__WB_MANIFEST;
-// precacheAndRoute(manifest);
+const manifest = self.__WB_MANIFEST;
+precacheAndRoute(manifest);
 
 // Precaching
 workbox.precaching.precacheAndRoute([
